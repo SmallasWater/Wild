@@ -1,0 +1,23 @@
+# 进入地图是否随机传送出生点
+random-spawn: true
+# 设定传送范围
+transfer-size: 800
+# 随机传送延时 单位秒
+transfer-time: 5
+# 随机传送冷却时间
+transfer-cold: 30
+# 禁止随机传送地图
+ban-transfer-world: []
+# 传送加载区块范围 最大值 16
+transfer-chunk: 4
+# 查找坐标次数
+# 若查找坐标超出限制则返回无有效坐标
+screen-transfer-count: 10
+# 默认随机传送终点方块
+# 若传送位置不在终点方块列表将传送其他坐标点
+transfer-end-block:
+  - "2:0"
+  - "3:0"
+  - "12:0"
+  - "1:0"
+  - "87:0"

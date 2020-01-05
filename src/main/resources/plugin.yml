@@ -1,0 +1,11 @@
+name: Wilds
+main: com.smallaswater.wild.Wild
+version: 1.0.0
+author: 若水
+api:
+  - 1.0.9
+load: POSTWORLD
+permissions:
+  Wilds.wild:
+    description: 随机传送
+    default: true
